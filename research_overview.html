@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Wolfgang Langhans @ Berkeley</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+                <script type="text/javascript">
+			    function toggle(id) {
+ 			     var e = document.getElementById(id);
+     
+			      if (e.style.display == '')
+   			     e.style.display = 'none';
+  			    else
+			        e.style.display = '';
+			    }
+			    </script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+						
+							<!-- Header -->
+								<header id="header">
+									<div class="inner">
+									
+										<!-- Logo -->
+											<h1><a href="index.html" id="logo">Wolfgang Langhans</a></h1>
+										
+										<!-- Nav -->
+											<nav id="nav">
+												<ul>
+													<li><a href="index.html">Home</a></li>
+													<li><a href="resume.html">About</a></li>
+													<li class="current_page_item"><a href="research.html">Research</a></li>
+													<li><a href="publications.html">Publications</a></li>
+											<!--		<li><a href="teaching.html">Teaching</a></li>-->
+													<li><a href="otherfunstuff.html">Other stuff</a></li>
+												</ul>
+											</nav>
+									
+									</div>
+								</header>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<!-- Main Wrapper -->
+			<div id="main-wrapper"> 
+
+				<div class="wrapper style3"> 
+					<div class="inner">  
+						<div class="container">
+							<div class="row">
+								<div class="12u">
+									<!-- Article list -->
+										<section class="box article-list">
+											
+											<!-- Excerpt -->
+
+												<article class="box excerpt" id="particles">
+												<div class="row">
+												<div class="3u">
+                                                                                                <a href="images/animation.gif" class="image left"><img src="images/animation.gif" alt="" /></a>
+The evolution of a selection of water particles through a cumulus cloud. Particles start inside a warm bubble near the ground and later move randomly in microphysical space from one class to another based on probabilities set by the underlying microphysical exchange rates. Colors indicate different water classes (gray=vapor, cyan=liquid, blue=rain, purple=graupel, green=ice, yellow=snow).
+												</div>
+												<div class="9u">
+                                                                                                                <header> 
+                                                                                                                       <h3><a>Lagrangian investigation of the precipitation efficiency of convective clouds</a></h3>
+                                                                                                                </header>
+A new framework is introduced to track Lagrangian particles repesenting water molecules in Eulerian large-eddy simulations. The approach allows to study the pathway of water molecules in both physical and microphysical space and is here applied to study the precipitation efficiency of cumulus clouds.
+														<div>
+														<a onclick="toggle('particles_why')"><b>Why do we care?</b></a>
+   															  <div id="particles_why" style="display:none">The precipitation efficiency (PE) of convective clouds sets the net latent heating of the troposphere by convective clouds. PE is a critical parameter in many convection parameterizations and, as a consequence, characteristics of global climate models (e.g., large-scale circulation or climate sensitivity) are highly sensitive to the applied PE. Unfortunately, little is know about PE. </div>
+														</div>
+														<div>
+														<a onclick="toggle('particles_how')"><b>How do we approach this?</b></a>
+    															  <div id="particles_how" style="display:none">Due to the Lagrangian nature of water transformations, PE is defined straightforwardly only in a Lagrangian framework. This leads us to the development of a framework to track Lagrangian particles representative of non-conserved (i.e., reacting) molecules. A Monte Carlo approach is used to transition water molecules between different forms of water mass (vapor, liquid water, snow, etc.). The framework is applicable to a wide variety of other reactive flows (e.g., tracking different components of carbon in a numerical simulation of a combustion flow). </div>
+														</div>
+														<div>
+														<a onclick="toggle('particles_res')"><b>What do we find?</b></a>
+    															  <div id="particles_res" style="display:none">
+The water cycle of individual cumulus clouds is explored to understand the efficiency of vapor that is entrained through cloud base and entrained laterally above cloud base. The overall efficiency (DR=drying ratio) of a cloud in processing entrained vapor to surface rainfall can then be viewed as a linear combination of the efficiencies of these two water pathways. We find that 2/3 of all entrained vapor is provided above cloud base, only 1/3 through cloud base. However, the efficiency of cloud-base vapor is considerably higher such that surface rainfall originates to 50% from below cloud-base and to 50% from above.
+
+To better understand the involved processes we decompose DR as DR=CExPE=CExFExSE, with drying ratio DR, formation efficiency FE, and sedimentation efficiency SE. We find that both CE and PE decrease with vapor entrainment height. CE is largely controlled by the average lifting provided inside the cloud (which becomes smaller for vapor entrained higher up in the cloud), while PE is largely controlled by SE. The latter decreases with entrainment height since precipitating condensate formed aloft will have a higher chance to evaporate during fallout.
+</div>
+														</div>
+														<div>
+														<a href="papers/Langhans_2014_JAS.pdf" class="icon fa-file-text-o"><b> Paper</b> </a> 
+														</div>
+                                                                                                </div>
+                                                                                                </div>
+												</article>
+
+                                                                                                <article class="box excerpt" id="thermal">
+                                                                                                <div class="row">
+                                                                                                <div class="3u">
+                                                                                                <a href="images/thermal.png" class="image left"><img src="images/thermal.png" alt="" /></a>
+Mean diurnal cycle of low, mid-level, and high clouds (gray shading) from Meteosat, a CRM, and a CPM for a summer period. Also shown is the mean diurnal cycle of observed and modeled surface precipitation. In contrast to the CPM, the CRM improves the timing of rainfall and reduces the too large fraction of high clouds.
+                                                                                                </div>  
+                                                                                                <div class="9u">
+                                                                                                                <header>
+                                                                                                                     <h3><a>The added value of long-term convection-permitting simulations</a></h3>
+                                                                                                                </header>
+The larger computational costs of convection-permitting simulations (CRMs) can only be justified for regional climate modeling if a significant added value with respect to coarse-grid parameterized simulations (CPMs) is identified. A process-level evaluation is conducted in this paper to compare CRMs, CPMs, and observations. Here, we are particularly interested in the interaction between thermally-driven mountain flows (which set in in the morning) and orographic deep convection (which often follows in the afternoon). 
+                                                                                                                <div>
+                                                                                                                <a onclick="toggle('thermal_why')"><b>Why do we care?</b></a>
+                                                                                                                          <div id="thermal_why" style="display:none">
+Thermally driven flows at a variety of scales are undoubtly of relevance to the initiation of deep convection over topography. The latter in turn is key to the hydrological cycle during persistent high-pressure episodes in summer when rainfall is limited to topographic regions. To inform about future water resources, regional climate models thus need to replicate the physics behind the interaction of thermally driven flows and convection.
+</div>
+                                                                                                               </div>
+                                                                                                                <div>
+                                                                                                                <a onclick="toggle('thermal_how')"><b>How do we approach this?</b></a>
+                                                                                                                          <div id="thermal_how" style="display:none">
+A 18-day high-pressure period with daily re-occuring deep orographic convection is studied. CRMs with 1.1 km and 2.2 km horizontal grid spacing and a CPM with 7.7 km grid spacing are evaluated against observations provided by MeteoSat-8 (cloud cover and height), station measurements across the Alps (valley winds and pressure gradient), gridded precipitation in Switzerland. Mean diurnal cycles are evaluated to reduce noise. 
+</div>
+                                                                                                                </div>
+                                                                                                                <div>
+                                                                                                                <a onclick="toggle('thermal_res')"><b>What do we find?</b></a>
+<div id="thermal_res" style="display:none">
+My main findings from this comparison are that the diurnal evolution of convective rainfall and cloud cover are significantly improved in CPMs, since the parameterization scheme for deep convection is switched off and convective instabilities are solved explicitly based on first principles. More importantly, however, I show that an added value is reflected also in an improved physical consistency at a process-level. I demonstrate that the observed link between the mass convergence by the large-scale plain-mountain flow during the morning, ensuing valley flows, and deep orographic convection during the afternoon is only captured by the CPMs.                                                                                                                </div>
+
+                                                                                                                </div>
+														<div>
+														<a class="icon fa-file-text-o" href="papers/Langhans_2013_JAMC.pdf"><b> Paper</b> </a>
+														</div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                </article>
+
+                                                                                                <article class="box excerpt" id="alps">
+                                                                                                <div class="row">
+                                                                                                <div class="3u">
+                                                                                                <a href="images/mechanism.png" class="image left"><img src="images/mechanism.png" alt="" /></a>
+                                                                                                </div>  
+                                                                                                <div class="9u">
+                                                                                                                <header>
+                                                                                                                     <h3><a>Heavy orographic precipitation, embedded convection, and the role of small-scale topography</a></h3>
+                                                                                                                </header>
+Abstract here ...
+                                                                                                                <div>
+                                                                                                                <a onclick="toggle('alps_why')"><b>Why do we care?</b></a>
+                                                                                                                          <div id="alps_why" style="display:none">and this is why we care</div>
+                                                                                                                </div>
+                                                                                                                <div>
+                                                                                                                <a onclick="toggle('alps_how')"><b>How do we approach this?</b></a>
+                                                                                                                          <div id="alps_how" style="display:none">and this is the used method</div>
+                                                                                                                </div>
+                                                                                                                <div>
+                                                                                                                <a onclick="toggle('alps_res')"><b>What do we find?</b></a>
+                                                                                                                <div id="alps_res" style="display:none">
+My key findings show that intense local rainfall resulted from the lifting of a convective band that formed in a low-level convergence line. Depending on the position of the convergence line with respect to the ridge, the proposed mechanism may either enhance or weaken the buoyancy-driven dynamics of these bands. The specific constellation during this event supported an enhancement. Such conceptual mechanisms are crucial for a better understanding of precipitation distributions over complex terrain. This research also contributed to a study of high-resolution ensemble predictions.
+													          </div>
+
+                                                                                                                </div>
+														<div>
+														<a class="icon fa-file-text-o" href="papers/Langhans_2011_QJ.pdf"><b> Paper</b> </a>
+														</div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                </article>
+
+
+
+										</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+        		</div>         
+
+
+	</body>
+</html>

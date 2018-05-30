@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Wolfgang Langhans | Lagrangian water particles</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+		<meta name="description" content="" >
+		<meta name="keywords" content="" >
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+                <script type="text/javascript">
+			    function toggle(id) {
+ 			     var e = document.getElementById(id);
+     
+			      if (e.style.display == '')
+   			     e.style.display = 'none';
+  			    else
+			        e.style.display = '';
+			    }
+			    </script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+						
+							<!-- Header -->
+								<header id="header">
+									<div class="inner">
+									
+										<!-- Logo -->
+											<h1><a href="index.html" id="logo">Wolfgang Langhans</a></h1>
+										
+										<!-- Nav -->
+											<nav id="nav">
+												<ul>
+													<li><a href="index.html">Home</a></li>
+													<li><a href="resume.html">About</a></li>
+													<li class="current_page_item"><a href="mostrecentpaper.html">Research</a></li>
+													<li><a href="publications.html">Publications</a></li>
+											<!--		<li><a href="teaching.html">Teaching</a></li>-->
+													<li><a href="otherfunstuff.html">Other stuff</a></li>
+												</ul>
+											</nav>
+									
+									</div>
+								</header>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<!-- Main Wrapper -->
+			<div id="main-wrapper"> 
+
+				<div class="wrapper style3"> 
+					<div class="inner">  
+						<div class="container">
+
+						<div class="12u">
+						<table width="100%" summary="Navigation header">
+						<tr>
+						<th width="100%" align="center">
+							 Most Recent
+							 <a href="VaporRing.html">[8]</a>
+							 <a href="Lagrangian.html"><b>[7]</b></a>
+							 <a href="SMPfeedback.html">[6]</a>
+							 <a href="AddedValue.html">[5]</a>
+							 <a href="Convergence.html">[4]</a>
+							 <a href="Diffusion.html">[3]</a>
+							 <a href="Aug05.html">[2]</a>
+							 <a href="Ensemble.html">[1]</a>
+							 Oldest
+						</th> 
+						</tr>
+						</table>
+						<table width="100%" summary="Navigation header">
+						<tr><th colspan="3" align="center"><h3>Lagrangian investigation of the precipitation efficiency of convective clouds</h3><br><a accesskey="n" href="http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-14-0159.1?af=R&"><b>Langhans, Yeo, and Romps, 2015, J. Atmos. Sci.</b></a></th></tr>
+						<tr>
+							<td width="20%" align="left"><a accesskey="p" href="VaporRing.html"><b>Prev</b></a> </td>
+							<th width="60%" align="center"> </th>
+							<td width="20%" align="right"> <a accesskey="n" href="SMPfeedback.html"><b>Next</b></a></td>
+						</tr>
+						</table>
+						</div>
+
+							<div class="row">
+								<div class="12u">
+									<!-- Article list -->
+										<section class="box article-list">
+											
+											<!-- Excerpt -->
+
+												<article class="box excerpt" id="particles">
+												<div class="row">
+												<div class="4u">
+                                                                                                <a href="images/animation.gif" class="image center"><img src="images/animation.gif" alt="" /></a>
+<div class="12u">
+<em>The evolution of a selection of water particles through a cumulus cloud. Particles start inside a warm bubble near the ground and later hop by chance from one water class to another based on probabilities set by the underlying microphysical exchange rates. Colors indicate different water classes (gray=vapor, cyan=liquid, blue=rain, purple=graupel, green=ice, yellow=snow).</em>
+</div>
+												</div>
+												<div class="8u">
+A new framework is introduced to track Lagrangian particles repesenting water molecules in Eulerian large-eddy simulations. The approach allows to study the pathway of water molecules in both physical and microphysical space and is here applied to study the precipitation efficiency of cumulus clouds.
+														<div>
+														<a onclick="toggle('particles_why')"><b>Why do we care?</b></a>
+   															  <div id="particles_why" style="display:none">The precipitation efficiency (PE) of convective clouds sets the net latent heating of the troposphere. PE is a critical parameter in many convection parameterizations and, as a consequence, characteristics of global climate models (e.g., large-scale circulation or climate sensitivity) are highly sensitive to the applied PE. Unfortunately, little is know about PE. </div>
+														</div>
+														<div>
+														<a onclick="toggle('particles_how')"><b>How do we approach this?</b></a>
+    															  <div id="particles_how" style="display:none">Due to the Lagrangian nature of water transformations, PE is defined straightforwardly only in a Lagrangian framework. This leads us to the development of a framework to track Lagrangian particles representative of non-conserved (i.e., reacting) molecules. A Monte Carlo approach is used to transition water molecules between different forms of water mass (vapor, liquid water, snow, etc.). The framework is applicable to a wide variety of other reactive flows (e.g., tracking different components of carbon in a numerical simulation of a combustion flow). </div>
+														</div>
+														<div>
+														<a onclick="toggle('particles_res')"><b>What do we find?</b></a>
+    															  <div id="particles_res" style="display:none">
+Individual cumulus clouds are explored to understand the efficiency of vapor that is entrained through cloud base and entrained laterally above cloud base. The overall efficiency (DR=drying ratio) of a cloud in processing entrained vapor to surface rainfall can then be viewed as a linear combination of the efficiencies of these two water pathways. We find that 2/3 of all entrained vapor is provided above cloud base, only 1/3 through cloud base. However, the efficiency of cloud-base vapor is considerably higher such that surface rainfall originates to 50% from below cloud-base and to 50% from above.
+<br>
+<br>
+To better understand the involved processes we decompose DR as DR=CExPE=CExFExSE with drying ratio DR, formation efficiency FE, and sedimentation efficiency SE. We find that both CE and PE decrease with vapor entrainment height. CE is largely controlled by the average lifting provided inside the cloud (which becomes smaller for vapor entrained higher up in the cloud), while PE is largely controlled by SE. The latter decreases with entrainment height since precipitating condensate formed aloft will have a higher chance to evaporate during fallout.
+</div>
+														</div>
+														<div>
+														<a href="papers/Langhans_2014_JAS.pdf" class="icon fa-file-text-o"><b> Paper</b> </a> 
+														</div>
+                                                                                                </div>
+                                                                                                </div>
+												</article>
+
+										</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+        		</div>         
+
+
+	</body>
+</html>
